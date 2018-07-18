@@ -1,0 +1,28 @@
+.container {
+  width:1080px;
+  margin:0px auto;
+  font-size:1em;
+  font-family: "Arial", Georgia, Serif;
+  font-size: 15px;
+ 
+}
+
+
+	header {
+  text-align:center;
+  border: 1px solid #ccc;
+  background: #fafafa
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+ 
+
+
+body {
+   
+    color:white;
+}
+
+
