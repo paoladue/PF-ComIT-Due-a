@@ -59,7 +59,7 @@
     
    <div id="boton_inicio"> 
   <button type="button" class="btn btn-primary btn-lg btn-block" href="inicio_sesion.php">SOLICITAR TURNO</button >
-  <button type="button" class="btn btn-secondary btn-lg btn-block">CANCELAR TURNO</button>
+  <button type="button" class="btn btn-secondary btn-lg btn-block" href="cancelar.php" >CANCELAR TURNO</button>
   </div>
 <br>
 
@@ -71,31 +71,37 @@
     
     <a class="btn btn-primary text-uppercase btn-lg" href="nosotros.php">Conozca más sobre nosotros</a>
 
- 
-    
-  <h2>Coberturas médicas</h2>
+ <br> <br>
+ <h2> Novedades y Noticias</h2>
 
-      <div class="row">
-        <div class="col-md-4">
-<ul>
-  <li type="disc"> ACCORD  </li>
-  <li type="disc"> ACA  </li>
-  <li type="disc"> BRAMED  </li>
-  <li type="disc"> DASUTEN (UTN)  </li>
-  <li type="disc"> FEDERADA SALUD  </li>
-  <li type="disc"> GALENO  </li>
-  <li type="disc"> IOMA  </li>
-
-</ul>
-  
-            </div>
-          
-
-
-
-
-
-
+     <div class="row">
+     <div class="col-md-4">
+ <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="imagenes/cardiofem.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Tenemos los mejores profesionales para evaluación de riesgo cardiovascular en mujeres adultas.</p>
+     <a class="btn btn-primary" href="inicio_sesion.php">Solicite turno</a>
+  </div>
+</div>
+</div>
+<div class="col-md-4">
+ <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="imagenes/transductor.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Contamos con la última tecnología en transductor endocavitario para la realización de ecografías.</p>
+    <a class="btn btn-primary" href="inicio_sesion.php">Solicite turno</a>
+  </div>
+</div>
+</div>
+<div class="col-md-4">
+ <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="imagenes/ronquido.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Incorporamos nuevo equipamiento General Electric para el tratamiento de los ronquidos.</p>
+    <a class="btn btn-primary" href="inicio_sesion.php">Solicite turno</a>
+  </div>
+</div>
+</div>
  
 </div> <!--es el div conteiner-->
 

@@ -54,7 +54,13 @@ if( isset($_POST['nombre'])) {
                     <button type="submit" class="btn btn-success btn-lg">Enviar</button>
                 </div>
             </form>
+
         </div>
+
+        <h3>¿Donde estamos?</h3>
+        
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyA5RDtwzVd5CxtXspS0vkytb0sZGok_YnU'></script><div style='overflow:hidden;height:300px;width:520px;'><div id='gmap_canvas' style='height:400px;width:400px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-website.com/es'>Bahia Blanca, Buenos Aires, Argentina</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=e40caf9c3eaaa7317d12b89256dc1edecafadd93'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-38.7133679,-62.27255600000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-38.7133679,-62.27255600000001)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br>Estomba 571<br>8000 Bahía Blanca<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
     </div>
 
 
@@ -64,12 +70,11 @@ if( isset($_POST['nombre'])) {
   }
   ?> </div>
 
-<center>
 
- <br>
 
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyA5RDtwzVd5CxtXspS0vkytb0sZGok_YnU'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:300px;width:300px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-website.com/es'>Bahia Blanca, Buenos Aires, Argentina</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=e40caf9c3eaaa7317d12b89256dc1edecafadd93'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-38.7133679,-62.27255600000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-38.7133679,-62.27255600000001)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br>Estomba 571<br>8000 Bahía Blanca<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-</center>
+
+
+
 
 <?php
     include('secciones/footer.php') ;

@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <center>
 <footer class="art-footer clearfix">
       
@@ -7,6 +7,7 @@
   background-color: rgb(233, 233, 233);
   color: rgb(92, 92, 92);
   padding-top: 20px;>
+
           <p>Clínica Médica Bahia</p>
           <p>Estomba 571, Bahía Blanca (8000) Tel. +54 (0291) 459 3600</p>
           <p>Copyright © 2018. Todos los derechos reservados.</p>
